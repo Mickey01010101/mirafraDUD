@@ -2,30 +2,34 @@
 #include<stdio.h>
 int main()
 {
-	int arr[5],i,j,n,temp=0;
+	int arr[100],i,j,n,temp=0,flag=0;
+	printf("enter the how many elements do u want:");
+	scanf("%d",&n);
 	printf("enter the elements:");
-	for(j=0;j<5;j++)
+	for(j=0;j<n;j++)
 	{
 		scanf("%d",&arr[j]);
-		n++;
 	}
 
 	for(i=0;i<n-1;i++)
 	{
-		for(j=0;j<n-1;j++)
+		for(j=0;j<n-1-i;j++)
 		{
 			if(arr[j]>arr[j+1])
 			{
 				temp=arr[j];
 				arr[j]=arr[j+1];
 				arr[j+1]=temp;
+				flag=1;
 			}
 		}
+	if(flag==0)
+	break;
 	}
 
-	for(j=0;j<5;j++)
+	for(j=0;j<n;j++)
 	{
-		printf("%d ",arr[j]);
+		printf("%d\t ",arr[j]);
 	}
 	printf("\n");
 }

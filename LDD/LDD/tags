@@ -1,0 +1,19 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+__versions	i2c_driver.mod.c	/^__used __section(__versions) = {$/;"	v	typeref:struct:__section	file:
+__versions	i2c_driver_dependency.mod.c	/^__used __section(__versions) = {$/;"	v	typeref:struct:__section	file:
+driver_exit	i2c_driver.c	/^module_exit(driver_exit);$/;"	v
+driver_exit	i2c_driver.c	/^static void __exit driver_exit(void)$/;"	f	file:
+driver_exit	i2c_driver_dependency.c	/^module_exit(driver_exit);$/;"	v
+driver_exit	i2c_driver_dependency.c	/^static void __exit driver_exit(void)$/;"	f	file:
+driver_start	i2c_driver.c	/^module_init(driver_start);$/;"	v
+driver_start	i2c_driver.c	/^static int __init driver_start(void)$/;"	f	file:
+driver_start	i2c_driver_dependency.c	/^module_init(driver_start);$/;"	v
+driver_start	i2c_driver_dependency.c	/^static int __init driver_start(void)$/;"	f	file:
+fun	i2c_driver.c	/^EXPORT_SYMBOL(fun);$/;"	v
+fun	i2c_driver.c	/^void fun(int x, int y)$/;"	f
+obj-m	Makefile	/^obj-m := i2c_driver.o$/;"	m

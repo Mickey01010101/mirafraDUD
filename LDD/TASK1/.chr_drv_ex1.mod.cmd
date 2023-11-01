@@ -1,0 +1,1 @@
+cmd_/home/km/MIRAFRA/mirafraDUD/mirafraDUD/LDD/TASK/chr_drv_ex1.mod := { echo  /home/km/MIRAFRA/mirafraDUD/mirafraDUD/LDD/TASK/chr_drv_ex1.o;  echo; } > /home/km/MIRAFRA/mirafraDUD/mirafraDUD/LDD/TASK/chr_drv_ex1.mod

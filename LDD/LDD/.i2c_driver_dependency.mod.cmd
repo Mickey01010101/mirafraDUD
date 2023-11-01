@@ -1,0 +1,1 @@
+cmd_/home/km/MIRAFRA/mirafraDUD/mirafraDUD/LDD/LDD/i2c_driver_dependency.mod := { echo  /home/km/MIRAFRA/mirafraDUD/mirafraDUD/LDD/LDD/i2c_driver_dependency.o;  echo; } > /home/km/MIRAFRA/mirafraDUD/mirafraDUD/LDD/LDD/i2c_driver_dependency.mod

@@ -1,0 +1,29 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+SEEK_CUR	driver1.c	11;"	d	file:
+SEEK_DATA	driver1.c	15;"	d	file:
+SEEK_END	driver1.c	13;"	d	file:
+SEEK_HOLE	driver1.c	16;"	d	file:
+SEEK_MAX	driver1.c	17;"	d	file:
+SEEK_SET	driver1.c	9;"	d	file:
+bu	driver1.c	/^char *bu;$/;"	v
+cdev	driver1.c	/^dev_t cdev;$/;"	v
+chr_driver_exit	driver1.c	/^module_exit(chr_driver_exit);$/;"	v
+chr_driver_exit	driver1.c	/^static void __exit chr_driver_exit(void)$/;"	f	file:
+chr_driver_start	driver1.c	/^module_init(chr_driver_start);$/;"	v
+chr_driver_start	driver1.c	/^static int __init chr_driver_start(void)$/;"	f	file:
+fops	driver1.c	/^static struct file_operations fops =$/;"	v	typeref:struct:file_operations	file:
+kernel_buffer	driver1.c	/^uint8_t *kernel_buffer;$/;"	v
+main	app.c	/^int main()$/;"	f
+mem_size	driver1.c	8;"	d	file:
+my_cdev	driver1.c	/^struct cdev my_cdev;$/;"	v	typeref:struct:cdev
+my_lseek	driver1.c	/^loff_t my_lseek(struct file *file, loff_t off_set, int whelce)$/;"	f
+my_open	driver1.c	/^static int my_open(struct inode *inode,struct file *file)$/;"	f	file:
+my_read	driver1.c	/^static ssize_t my_read(struct file *filp,char __user *buff,size_t len,loff_t *off)$/;"	f	file:
+my_release	driver1.c	/^static int my_release(struct inode *inode,struct file *file)$/;"	f	file:
+my_write	driver1.c	/^static ssize_t my_write(struct file *filp,const char __user *buff,size_t len,loff_t *off)$/;"	f	file:
+obj-m	Makefile	/^obj-m := driver1.o$/;"	m

@@ -1,0 +1,1 @@
+cmd_/home/km/MIRAFRA/mirafraDUD/mirafraDUD/LDD/2_TASK/task8/driver1.mod := { echo  /home/km/MIRAFRA/mirafraDUD/mirafraDUD/LDD/2_TASK/task8/driver1.o;  echo; } > /home/km/MIRAFRA/mirafraDUD/mirafraDUD/LDD/2_TASK/task8/driver1.mod

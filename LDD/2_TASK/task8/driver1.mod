@@ -1,0 +1,2 @@
+/home/km/MIRAFRA/mirafraDUD/mirafraDUD/LDD/2_TASK/task8/driver1.o
+

@@ -1,0 +1,2 @@
+/home/km/MIRAFRA/mirafraDUD/mirafraDUD/LDD/TASK/chr_drv_ex1.o
+

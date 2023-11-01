@@ -2,7 +2,7 @@
 #include<stdio.h>
 void add1(int n)
 {
-	n=n|0x01;
+	n=-(~n);
 	printf("after adding 1 is %d\n",n);
 }
 int main()
